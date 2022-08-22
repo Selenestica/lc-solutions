@@ -29,3 +29,5 @@ const isValid = (s) => {
     }
     return isValid(tempS);
 };
+
+// much better solution involves a bracket "stack"
